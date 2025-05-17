@@ -1,9 +1,7 @@
-function Footer() {
-    return (
-        <footer className="footer">
-            <p>© 2025 Simple React App. All rights reserved.</p>
-        </footer>
-    );
+const Footer = () => {
+    return <footer className="py-4 text-center text-gray-400 text-sm mt-auto">
+        &copy; {new Date().getFullYear()} Easy POS. All rights reserved.
+    </footer>
 }
 
-export default Footer;
+export  default Footer
